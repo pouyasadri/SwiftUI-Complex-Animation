@@ -3,19 +3,13 @@
 //  ComplexAnimation
 //
 //  Created by Pouya Sadri on 07/03/2024.
-//
+//  Instagram : pouyasadri_dev
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        HomeView()
     }
 }
 
